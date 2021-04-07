@@ -77,6 +77,9 @@
  * Global coloors
  */
 /*
+ *
+ */
+/*
  * Light theme
  */
 /*
@@ -137,6 +140,15 @@ table {
     border: 1px solid #616060;
     color: #616060; }
 
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    min-width: 100%; }
+    table th, table td {
+      padding: 4px;
+      text-overflow: clip;
+      overflow: hidden; } }
+
 /*
  * Code highlight
  */
@@ -185,7 +197,7 @@ pre, .highlight {
     display: flex; }
     .recent-posts .post > .post-data, .recent-posts .post > a {
       padding: 40px 20px; }
-    .recent-posts .post .post-data {
+    .recent-posts .post .post-data, .recent-posts .post .cover {
       width: 300px;
       height: 200px; }
   .recent-posts .post:nth-child(even) {
@@ -210,6 +222,11 @@ pre, .highlight {
   background: linear-gradient(to bottom, #ffffff 0%, #efefef 8%, #efefef 92%, #ffffff 100%);
   z-index: 5; }
 
+@media (max-width: 768px) {
+  .recent-posts .post .post-data, .recent-posts .post .cover {
+    width: 150px;
+    height: 100px; } }
+
 .content.markdown {
   display: flex;
   flex-direction: column;
@@ -225,6 +242,14 @@ pre, .highlight {
 
 .streaming table th:first-child {
   width: 100px; }
+
+@media (max-width: 768px) {
+  .streaming table th, .streaming table td {
+    padding: 12px 20px;
+    text-overflow: clip;
+    overflow: hidden; }
+  .streaming table th:first-child {
+    width: 30px; } }
 
 .history {
   position: relative;
@@ -272,6 +297,12 @@ pre, .highlight {
   background: #ffffff;
   background: linear-gradient(to bottom, #ffffff 0%, #efefef 8%, #efefef 92%, #ffffff 100%);
   z-index: 5; }
+
+@media (max-width: 768px) {
+  .history .post {
+    padding: 0; }
+    .history .post > a {
+      width: 150px; } }
 
 .archive {
   --auto-grid-min-size: 10rem;
