@@ -35,19 +35,13 @@
   font-family: 'Open Sans';
   font-weight: 600;
   font-style: normal;
-  src: url("../fonts/Open_Sans/OpenSans-Semibold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Open Sans';
-  font-weight: 600;
-  font-style: normal;
-  src: url("../fonts/Open_Sans/OpenSans-Semibold.ttf") format("truetype"); }
+  src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Open Sans';
   font-weight: 600;
   font-style: italic;
-  src: url("../fonts/Open_Sans/OpenSans-SemiboldItalic.ttf") format("truetype"); }
+  src: url("../fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Open Sans';
@@ -77,7 +71,7 @@
  * Global coloors
  */
 /*
- *
+ * Screen sizes
  */
 /*
  * Light theme
@@ -141,13 +135,26 @@ table {
     color: #616060; }
 
 @media (max-width: 768px) {
-  table {
+  .page table {
     width: 100%;
     min-width: 100%; }
-    table th, table td {
-      padding: 4px;
+    .page table thead, .page table thead tr, .page table th {
+      display: none; }
+    .page table tr {
+      display: block;
+      padding: 12px 20px;
+      border: 1px solid #616060;
+      border-bottom: none; }
+    .page table tr:last-child {
+      border-bottom: 1px solid #616060; }
+    .page table td:first-child {
+      font-weight: 600; }
+    .page table td {
+      display: block;
+      padding: 0;
       text-overflow: clip;
-      overflow: hidden; } }
+      overflow: hidden;
+      border: none; } }
 
 /*
  * Code highlight
@@ -183,8 +190,7 @@ pre, .highlight {
       color: #999; }
 
 .recent-posts {
-  position: relative;
-  padding: 60px 0; }
+  position: relative; }
   .recent-posts .text-block {
     display: block;
     z-index: 10;
@@ -244,16 +250,18 @@ pre, .highlight {
   width: 100px; }
 
 @media (max-width: 768px) {
-  .streaming table th, .streaming table td {
-    padding: 12px 20px;
-    text-overflow: clip;
-    overflow: hidden; }
-  .streaming table th:first-child {
-    width: 30px; } }
+  .streaming table {
+    width: 100%;
+    min-width: 100%; }
+    .streaming table th, .streaming table td {
+      padding: 12px 20px;
+      text-overflow: clip;
+      overflow: hidden; }
+    .streaming table th:first-child {
+      width: 30px; } }
 
 .history {
-  position: relative;
-  padding: 60px 0; }
+  position: relative; }
   .history .text-block {
     display: block;
     z-index: 10;
