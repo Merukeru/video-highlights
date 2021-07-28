@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://merukeru.github.io/video-highlights/sitemap.xml
