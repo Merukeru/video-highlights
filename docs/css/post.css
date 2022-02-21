@@ -1,0 +1,21 @@
+
+.content.markdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content.markdown > figure, .content.markdown table, .content.markdown p, .content.markdown h1, .content.markdown h2, .content.markdown h3, .content.markdown h4, .content.markdown h5, .content.markdown h6 {
+    padding: 10px 20px;
+}
+
+.content.markdown > h1, .content.markdown h2, .content.markdown h3, .content.markdown h4, .content.markdown h5, .content.markdown h6 {
+    text-align: center;
+}
+
+.content.markdown blockquote {
+    padding: 12px 20px;
+    background: var(--gray-lighter);
+    color: var(--gray-dark);
+}
+

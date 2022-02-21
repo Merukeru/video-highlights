@@ -1,0 +1,82 @@
+
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: regular;
+  src: url('../fonts/FontAwesome/FontAwesome.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/FontAwesome/FontAwesome.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/FontAwesome/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/FontAwesome/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/FontAwesome/fontawesome-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../fonts/Open_Sans/OpenSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: italic;
+  src: url('../fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/Open_Sans/OpenSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../fonts/Open_Sans/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: italic;
+  src: url('../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+}

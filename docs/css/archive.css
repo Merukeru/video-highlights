@@ -1,0 +1,44 @@
+
+.archive {
+    --auto-grid-min-size: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+}
+
+.archive .archive-entry {
+    padding: 10px 20px;
+    border: 1px solid var(--gray-light);
+}
+
+.archive .archive-entry .entry-icon {
+    margin: 20px 0 0 0;
+}
+
+.archive .archive-entry .provider {
+    margin: 0 0 10px 0;
+}
+
+.archive a {
+    cursor: pointer;
+}
+
+.archive .provider a {
+    color: white;
+}
+
+.archive .provider.blue a {
+    color: var(--blue);
+}
+
+.archive .provider.black a {
+    color: black;
+}
+
+.archive .provider.darkblue a {
+    color: var(--darkblue);
+}
+
+.archive .provider.red a {
+    color: var(--red);
+}

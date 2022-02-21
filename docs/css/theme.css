@@ -1,11 +1,11 @@
-@import "_fonts";
-@import "_variables";
-@import "_shared";
-@import "_home";
-@import "_post";
-@import "_streaming";
-@import "_history";
-@import "_archive";
+@import "fonts.css";
+@import "variables.css";
+@import "shared.css";
+@import "home.css";
+@import "post.css";
+@import "streaming.css";
+@import "history.css";
+@import "archive.css";
 
 body, div {
   margin: 0;
@@ -14,7 +14,7 @@ body, div {
 
 body, div, h1, h2, h3, h4, h5, p {
   font-weight: normal;
-  color: $text-color;
+  color: var(--text-color);
 }
 
 html {
@@ -24,7 +24,7 @@ html {
 html, body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-font-smoothing: antialiased;
-  background: #fff;
+  background: var(--gray-lightest);
 }
 
 body {

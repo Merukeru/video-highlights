@@ -1,0 +1,80 @@
+.history {
+    position: relative;
+}
+
+.history .text-block {
+    display: block;
+    z-index: 10;
+    padding: 12px 20px;
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    background: var(--gray-lightest);
+}
+
+.history .post {
+    z-index: 10;
+    display: flex;
+    padding: 20px 0;
+}
+
+.history .post > a {
+    display: block;
+    width: 300px;
+}
+
+.history .post .post-date {
+    padding: 10px 10px;
+}
+
+.history .post .post-title {
+    padding: 0 10px;
+}
+
+.history .post:nth-child(even) {
+    flex-direction: row;
+}
+
+.history .post:nth-child(even) .post-date {
+    text-align: right;
+}
+
+.history .post:nth-child(even) .post-title {
+    text-align: left;
+}
+
+.history .post:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.history .post:nth-child(odd) .post-date {
+    text-align: left;
+}
+
+.history .post:nth-child(odd) .post-title {
+    text-align: right;
+}
+
+.history:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: ' ';
+    display: block;
+    width: 1px;
+    height: 100%;
+    margin-left: -1px;
+    background: var(--gray-lightest);
+    background: linear-gradient(to bottom, #fff 0%, var(--gray-lighter) 8%, var(--gray-lighter) 92%, #fff 100%);
+    z-index: 5;
+}
+
+@media (max-width: var(--screen-sm-max)) {
+    .history .post {
+        padding: 0;
+    }
+
+    .history .post > a {
+        width: 150px;
+    }
+}
+

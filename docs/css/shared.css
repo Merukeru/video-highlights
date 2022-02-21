@@ -1,0 +1,129 @@
+/* * Links */
+a, a:hover {
+    text-decoration: none;
+    color: var(--gray-dark);
+}
+
+/* * Text */
+.text-small {
+    font-size: 12px;
+}
+
+.text-big {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.text-regular {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+/* * Alignment */
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+/* * Tables */
+table {
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+table th, td {
+    padding: 12px 20px;
+    border: 1px solid var(--gray-dark);
+    color: var(--gray-dark);
+}
+
+@media (max-width: var(--screen-sm-max)) {
+    .page table {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .page table thead, .page table thead tr, .page table th {
+        display: none;
+    }
+
+    .page table tr {
+        display: block;
+        padding: 12px 20px;
+        border: 1px solid var(--gray-dark);
+        border-bottom: none;
+    }
+
+    .page table tr:last-child {
+        border-bottom: 1px solid var(--gray-dark);
+    }
+
+    .page table td:first-child {
+        font-weight: 600;
+    }
+
+    .page table td {
+        display: block;
+        padding: 0;
+        text-overflow: clip;
+        overflow: hidden;
+        border: none;
+    }
+}
+
+/* * Code highlight */
+.highlight td.gutter, .highlight td.code {
+    padding: 0 10px;
+    border: none;
+}
+
+pre, .highlight {
+    background: var(--gray-darker);
+    overflow: auto;
+    color: var(--gray-light);
+    line-height: 20px;
+}
+
+/* * Headers for pages */
+.page.header, .post.header {
+    padding: 20px 0 60px 0;
+}
+
+.page > h1, .page h2, .page h3, .page h4, .page h5, .page h6 {
+    margin: 40px 0 20px 0;
+}
+
+/* * Footers for pages */
+.page.footer, .post.footer {
+    padding: 60px 20px;
+}
+
+.page.footer .links, .post.footer .links {
+    padding: 12px 20px;
+    border: 1px solid var(--gray);
+}
+
+.page.footer .links a, .post.footer .links a {
+    color: var(--gray);
+}

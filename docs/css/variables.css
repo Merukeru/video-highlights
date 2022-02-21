@@ -1,0 +1,37 @@
+/*
+ * Global coloors
+ */
+
+:root {
+    --gray-lightest: #ffffff;
+    --gray-lighter: #efefef;
+    --gray-light: #ddd;
+    --gray: #999;
+    --gray-dark: #616060;
+    --gray-darker: #2d2d2d;
+
+    --red: #ED2319;
+    --blue: #00BAE0;
+    --darkblue: #003C86;
+
+    /*
+    * Screen sizes
+    */
+    --screen-sm-max: 768px;
+
+    /*
+     * Light theme
+     */
+    --background: var(--gray-lightest);
+    --text-color: var(--gray-dark);
+
+    --code-font-color: var(--gray-light);
+    --code-background: var(--gray-darker);
+
+    --link-color: var(--gray);
+
+    --tvn-color: var(--red);
+    --tva-color: black;
+    --tvp-color: var(--blue);
+    --tvd-color: var(--darkblue);
+}

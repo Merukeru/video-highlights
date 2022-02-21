@@ -1,0 +1,21 @@
+.streaming table th:first-child {
+    width: 100px;
+}
+
+@media screen and (min-width: var(--screen-sm-max)) {
+    .streaming table {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .streaming table th, .streaming table td {
+        padding: 12px 20px;
+        text-overflow: clip;
+        overflow: hidden;
+    }
+
+    .streaming table th:first-child {
+        width: 30px;
+    }
+}
+

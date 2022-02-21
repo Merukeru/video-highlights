@@ -1,0 +1,64 @@
+.recent-posts {
+    position: relative;
+}
+
+.recent-posts .text-block {
+    display: block;
+    z-index: 10;
+    padding: 12px 20px;
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    background: var(--gray-lightest);
+}
+
+.recent-posts .post {
+    z-index: 10;
+    display: flex;
+}
+
+.recent-posts .post > .post-data, .recent-posts .post > a {
+    padding: 40px 20px;
+}
+
+.recent-posts .post .post-data, .recent-posts .post .cover {
+    width: 300px;
+    height: 200px;
+}
+
+.recent-posts .post:nth-child(even) {
+    flex-direction: row;
+}
+
+.recent-posts .post:nth-child(even) p, .recent-posts .post:nth-child(even) a {
+    text-align: left;
+}
+
+.recent-posts .post:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.recent-posts .post:nth-child(odd) .post-data p, .recent-posts .post:nth-child(odd) .post-data a {
+    text-align: right;
+}
+
+.recent-posts:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: ' ';
+    display: block;
+    width: 1px;
+    height: 100%;
+    margin-left: -1px;
+    background: var(--gray-lightest);
+    background: linear-gradient(to bottom, var(--background) 0%, var(--gray-lighter) 8%, var(--gray-lighter) 92%, var(--background) 100%);
+    z-index: 5;
+}
+
+@media (max-width: var(--screen-sm-max)) {
+    .recent-posts .post .post-data, .recent-posts .post .cover {
+        width: 150px;
+        height: 100px;
+    }
+}
+
