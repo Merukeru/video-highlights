@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+sitemap: https://merukeru.github.io/video-highlights/sitemap.xml
