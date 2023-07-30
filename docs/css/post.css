@@ -19,3 +19,14 @@
     color: var(--gray-dark);
 }
 
+
+@media (max-width: 768px) {
+    .post table {
+        width: 100%;
+        min-width: 100%;
+    }
+    .post table tr th:first-child, .post table tr td:first-child {
+        width: 20px;
+    }
+}
+

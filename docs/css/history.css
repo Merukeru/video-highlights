@@ -68,13 +68,17 @@
     z-index: 5;
 }
 
-@media (max-width: var(--screen-sm-max)) {
+@media (max-width: 768px) {
     .history .post {
         padding: 0;
     }
 
     .history .post > a {
         width: 150px;
+    }
+
+    .history .post .text-big {
+        font-size: 1rem;
     }
 }
 

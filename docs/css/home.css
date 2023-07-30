@@ -55,10 +55,28 @@
     z-index: 5;
 }
 
-@media (max-width: var(--screen-sm-max)) {
+@media (max-width: 768px) {
     .recent-posts .post .post-data, .recent-posts .post .cover {
         width: 150px;
         height: 100px;
+    }
+
+    .recent-posts .post {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 160px;
+    }
+    .recent-posts .post .cover {
+        width: 150px;
+        height: 100px;
+    }
+    .recent-posts .post .text-big {
+        font-size: 1rem;
+    }
+    .recent-posts .post > .post-data, .recent-posts .post > a {
+        padding: 40px 10px;
     }
 }
 

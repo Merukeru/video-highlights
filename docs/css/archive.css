@@ -42,3 +42,9 @@
 .archive .provider.red a {
     color: var(--red);
 }
+
+@media (max-width: 768px) {
+    .archive .archive-entry .entry-icon, .archive .archive-entry .provider {
+        margin: 0;
+    }
+}

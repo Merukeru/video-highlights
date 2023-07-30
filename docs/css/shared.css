@@ -58,7 +58,7 @@ table th, td {
     color: var(--gray-dark);
 }
 
-@media (max-width: var(--screen-sm-max)) {
+@media (max-width: 768px) {
     .page table {
         width: 100%;
         min-width: 100%;
@@ -126,4 +126,11 @@ pre, .highlight {
 
 .page.footer .links a, .post.footer .links a {
     color: var(--gray);
+}
+
+
+@media (max-width: 768px) {
+    .page.header, .post.header {
+        padding: 20px 0 20px 0;
+    }
 }
