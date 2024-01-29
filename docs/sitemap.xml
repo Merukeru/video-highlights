@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://merukeru.github.io/video-highlights/2024/01/29/Amazon-Prime-Video-Highlights-February-2024/</loc>
+    
+    <lastmod>2024-01-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://merukeru.github.io/video-highlights/2024/01/29/Apple-TV-Video-Highlights-February-2024/</loc>
+    
+    <lastmod>2024-01-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://merukeru.github.io/video-highlights/2024/01/29/Disney-Video-Highlights-February-2024/</loc>
+    
+    <lastmod>2024-01-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://merukeru.github.io/video-highlights/2024/01/29/Netflix-Video-Highlights-February-2024/</loc>
+    
+    <lastmod>2024-01-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://merukeru.github.io/video-highlights/2023/12/29/Apple-TV-Video-Highlights-January-2024/</loc>
     
     <lastmod>2023-12-29</lastmod>
@@ -380,7 +416,7 @@
   </url>
   
   <url>
-    <loc>https://merukeru.github.io/video-highlights/2022/06/28/Netflix-Video-Highlights-July-2022/</loc>
+    <loc>https://merukeru.github.io/video-highlights/2023/06/26/Netflix-Video-Highlights-July-2023/</loc>
     
     <lastmod>2023-07-30</lastmod>
     
@@ -389,7 +425,7 @@
   </url>
   
   <url>
-    <loc>https://merukeru.github.io/video-highlights/2023/06/26/Netflix-Video-Highlights-July-2023/</loc>
+    <loc>https://merukeru.github.io/video-highlights/2022/06/28/Netflix-Video-Highlights-July-2022/</loc>
     
     <lastmod>2023-07-30</lastmod>
     
@@ -443,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://merukeru.github.io/video-highlights/2022/01/31/Netflix-Video-Highlights-February-2022/</loc>
+    <loc>https://merukeru.github.io/video-highlights/2021/02/01/Netflix-Video-Highlights-February-2021/</loc>
     
     <lastmod>2023-07-30</lastmod>
     
@@ -452,7 +488,7 @@
   </url>
   
   <url>
-    <loc>https://merukeru.github.io/video-highlights/2021/02/01/Netflix-Video-Highlights-February-2021/</loc>
+    <loc>https://merukeru.github.io/video-highlights/2022/01/31/Netflix-Video-Highlights-February-2022/</loc>
     
     <lastmod>2023-07-30</lastmod>
     
@@ -722,15 +758,6 @@
   </url>
   
   <url>
-    <loc>https://merukeru.github.io/video-highlights/2022/07/26/Disney-Video-Highlights-August-2022/</loc>
-    
-    <lastmod>2023-07-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://merukeru.github.io/video-highlights/2021/07/29/Disney-Video-Highlights-August-2021/</loc>
     
     <lastmod>2023-07-30</lastmod>
@@ -740,7 +767,7 @@
   </url>
   
   <url>
-    <loc>https://merukeru.github.io/video-highlights/2021/03/28/Disney-Video-Highlights-April-2021/</loc>
+    <loc>https://merukeru.github.io/video-highlights/2022/07/26/Disney-Video-Highlights-August-2022/</loc>
     
     <lastmod>2023-07-30</lastmod>
     
@@ -750,6 +777,15 @@
   
   <url>
     <loc>https://merukeru.github.io/video-highlights/2022/04/01/Disney-Video-Highlights-April-2022/</loc>
+    
+    <lastmod>2023-07-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://merukeru.github.io/video-highlights/2021/03/28/Disney-Video-Highlights-April-2021/</loc>
     
     <lastmod>2023-07-30</lastmod>
     
@@ -794,7 +830,7 @@
   </url>
   
   <url>
-    <loc>https://merukeru.github.io/video-highlights/2021/10/31/Apple-TV-Video-Highlights-November-2021/</loc>
+    <loc>https://merukeru.github.io/video-highlights/2023/04/26/Apple-TV-Video-Highlights-May-2023/</loc>
     
     <lastmod>2023-07-30</lastmod>
     
@@ -803,7 +839,7 @@
   </url>
   
   <url>
-    <loc>https://merukeru.github.io/video-highlights/2023/04/26/Apple-TV-Video-Highlights-May-2023/</loc>
+    <loc>https://merukeru.github.io/video-highlights/2021/10/31/Apple-TV-Video-Highlights-November-2021/</loc>
     
     <lastmod>2023-07-30</lastmod>
     
@@ -1390,7 +1426,7 @@
 
   <url>
     <loc>https://merukeru.github.io/video-highlights</loc>
-    <lastmod>2023-12-29</lastmod>
+    <lastmod>2024-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
