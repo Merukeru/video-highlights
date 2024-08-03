@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://merukeru.github.io/video-highlights/2024/07/28/Apple-TV-Video-Highlights-August-2024/</loc>
+    
+    <lastmod>2024-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://merukeru.github.io/video-highlights/2024/07/28/Disney-Video-Highlights-August-2024/</loc>
+    
+    <lastmod>2024-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://merukeru.github.io/video-highlights/2024/07/28/Netflix-Video-Highlights-August-2024/</loc>
+    
+    <lastmod>2024-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://merukeru.github.io/video-highlights/2024/07/28/Amazon-Prime-Video-Highlights-August-2024/</loc>
+    
+    <lastmod>2024-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://merukeru.github.io/video-highlights/2024/06/29/Apple-TV-Video-Highlights-July-2024/</loc>
     
     <lastmod>2024-06-29</lastmod>
@@ -1606,7 +1642,7 @@
 
   <url>
     <loc>https://merukeru.github.io/video-highlights</loc>
-    <lastmod>2024-06-29</lastmod>
+    <lastmod>2024-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
